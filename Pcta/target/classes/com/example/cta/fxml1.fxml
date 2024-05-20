@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorpane" prefHeight="724.0" prefWidth="1026.0" style="-fx-background-color: #1D3557;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cta.controller">
+   <children>
+      <Text layoutX="80.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STUDENT NAME">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.3106796116504854" startY="0.4077669902912621">
+               <stops>
+                  <Stop color="#c1cd19f0" />
+                  <Stop color="#ff2191" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Text layoutX="83.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USN">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#d0c837" />
+                  <Stop color="#dd2581" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Text layoutX="80.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ROOM NUMBER">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#d0c837" />
+                  <Stop color="#dd2581" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Text layoutX="83.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DESK NUMBER">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.3106796116504854" startY="0.4077669902912621">
+               <stops>
+                  <Stop color="#c1cd19f0" />
+                  <Stop color="#ff2191" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Text layoutX="613.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EXAM TYPE">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.3106796116504854" startY="0.4077669902912621">
+               <stops>
+                  <Stop color="#c1cd19f0" />
+                  <Stop color="#ff2191" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Text layoutX="627.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BRANCH">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.3106796116504854" startY="0.4077669902912621">
+               <stops>
+                  <Stop color="#c1cd19f0" />
+                  <Stop color="#ff2191" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <TextField fx:id="name" layoutX="279.0" layoutY="111.0" prefHeight="31.0" prefWidth="288.0" style="-fx-background-color: # 58ADE2;" />
+      <TextField fx:id="usn" layoutX="279.0" layoutY="163.0" prefHeight="31.0" prefWidth="288.0" />
+      <TextField fx:id="roomno" layoutX="279.0" layoutY="215.0" prefHeight="31.0" prefWidth="288.0" />
+      <TextField fx:id="deskno" layoutX="279.0" layoutY="268.0" prefHeight="31.0" prefWidth="288.0" />
+      <Button layoutX="66.0" layoutY="349.0" mnemonicParsing="false" onAction="#onSub" prefHeight="43.0" prefWidth="111.0" text="SUBMIT" textFill="#30d35c">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button layoutX="208.0" layoutY="349.0" mnemonicParsing="false" onAction="#onAdd" prefHeight="43.0" prefWidth="174.0" text="ADD STUDENT" textFill="#30d35c">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="22.0" />
+         </font>
+      </Button>
+      <Pane layoutY="598.0" prefHeight="150.0" prefWidth="1027.0" style="-fx-background-color: #D6F342;">
+         <children>
+            <Pane layoutX="887.0" layoutY="36.0" prefHeight="78.0" prefWidth="111.0" style="-fx-background-color: #1D3557;">
+               <children>
+                  <Pane layoutX="22.0" layoutY="18.0" prefHeight="43.0" prefWidth="67.0" style="-fx-background-color: F3F5F9;">
+                     <children>
+                        <Pane layoutX="10.0" layoutY="8.0" prefHeight="27.0" prefWidth="49.0" style="-fx-background-color: D6F342;" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Label layoutX="24.0" layoutY="76.0" text="Total Number Of Students :">
+               <font>
+                  <Font name="Britannic Bold" size="19.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="0.616504854368932" endY="1.0">
+                     <stops>
+                        <Stop color="#dd204f" />
+                        <Stop color="#2b03f2" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill></Label>
+            <Label fx:id="resStu" layoutX="281.0" layoutY="75.0" textFill="#291cbc">
+               <font>
+                  <Font name="Britannic Bold" size="21.0" />
+               </font></Label>
+            <Label layoutX="356.0" layoutY="76.0" text="Total Number Of Branch :">
+               <font>
+                  <Font name="Britannic Bold" size="19.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="0.616504854368932" endY="1.0">
+                     <stops>
+                        <Stop color="#dd204f" />
+                        <Stop color="#2b03f2" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill></Label>
+            <Label fx:id="resBranch" layoutX="599.0" layoutY="75.0" textFill="#4f15d7">
+               <font>
+                  <Font name="Britannic Bold" size="21.0" />
+               </font></Label>
+         </children>
+      </Pane>
+      <Text layoutX="142.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EXAMINATION SEATING ARRANGEMENT SYSTEM" underline="true">
+         <font>
+            <Font name="Britannic Bold" size="38.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.3106796116504854" startY="0.5631067961165048">
+               <stops>
+                  <Stop color="#c1cd19f0" />
+                  <Stop color="#ff20e9" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <ComboBox fx:id="cbBranch" layoutX="732.0" layoutY="111.0" prefHeight="31.0" prefWidth="275.0" promptText="Select Branch" />
+      <ComboBox fx:id="cbExamType" layoutX="732.0" layoutY="173.0" prefHeight="31.0" prefWidth="275.0" promptText="Select Exam Type" />
+      <TableView fx:id="tbl" layoutX="20.0" layoutY="425.0" prefHeight="226.0" prefWidth="868.0" style="-fx-background-color: #f2f2f2;">
+        <columns>
+          <TableColumn fx:id="nameCol" prefWidth="177.0" text="USN" />
+          <TableColumn fx:id="usnCol" prefWidth="137.0" text="NAME" />
+            <TableColumn fx:id="roomNoCol" prefWidth="99.0" text="Room" />
+            <TableColumn fx:id="deskNoCol" text="Desk" />
+            <TableColumn fx:id="branchCol" prefWidth="245.0" text="Branch" />
+            <TableColumn fx:id="examTypeCol" prefWidth="126.0" text="Exam" />
+        </columns>
+      </TableView>
+      <Button layoutX="408.0" layoutY="349.0" mnemonicParsing="false" onAction="#onDisplyBtnClk" prefHeight="43.0" prefWidth="119.0" text="DISPLY" textFill="#30d35c">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button layoutX="548.0" layoutY="349.0" mnemonicParsing="false" onAction="#onUpdateBtnClk" prefHeight="43.0" prefWidth="119.0" text="UPDATE" textFill="#30d35c">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button layoutX="698.0" layoutY="349.0" mnemonicParsing="false" onAction="#onDeleteBtnClk" prefHeight="43.0" prefWidth="119.0" text="DELETE" textFill="#30d35c">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="22.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="sdmLogo" fitHeight="95.0" fitWidth="111.0" layoutX="35.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/SDMLOGO.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

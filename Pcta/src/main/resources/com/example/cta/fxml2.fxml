@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="634.0" prefWidth="884.0" style="-fx-background-color: #D8DA20;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cta.controller1">
+   <children>
+      <Label layoutX="245.0" layoutY="14.0" prefHeight="79.0" prefWidth="534.0" text="SEATING ALLOTMENT" underline="true">
+         <font>
+            <Font name="Britannic Bold" size="43.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.3106796116504854" startY="0.9223300970873786">
+               <stops>
+                  <Stop color="#2a0ee4" />
+                  <Stop color="#2a0ee4" offset="0.007246376811594203" />
+                  <Stop color="#e10ac4" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="63.0" layoutY="146.0" text="STUDENT NAME" textFill="#330ad7">
+         <font>
+            <Font name="Britannic Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="273.0" layoutY="146.0" text="USN" textFill="#330ad7">
+         <font>
+            <Font name="Britannic Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="391.0" layoutY="146.0" text="ROOM NUMBER" textFill="#330ad7">
+         <font>
+            <Font name="Britannic Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="598.0" layoutY="146.0" text="DESK NUMBER" textFill="#330ad7">
+         <font>
+            <Font name="Britannic Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="result" layoutX="63.0" layoutY="179.0" prefHeight="276.0" prefWidth="700.0" />
+      <Label layoutX="63.0" layoutY="487.0" text="TOTAL NUMBER OF STUDENTS" textFill="#330ad7">
+         <font>
+            <Font name="Britannic Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="549.0" text="TOTAL NUMBER OF BRANCHES" textFill="#330ad7">
+         <font>
+            <Font name="Britannic Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="391.0" layoutY="471.0" prefHeight="51.0" prefWidth="371.0" />
+      <TextArea layoutX="391.0" layoutY="535.0" prefHeight="51.0" prefWidth="371.0" />
+   </children>
+</AnchorPane>
